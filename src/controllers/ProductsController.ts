@@ -10,7 +10,8 @@ class ProductsController {
         id: item.id,
         name: item.name,
         price: item.price,
-        image_url: `https://paguru-challenge-api.herokuapp.com/uploads/${item.image}`,
+        image_url: item.image
+        // image_url: `https://paguru-challenge-api.herokuapp.com/uploads/${item.image}`,
       };
     });
 
