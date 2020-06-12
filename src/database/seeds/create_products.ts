@@ -34,28 +34,28 @@ export async function seed(knex: Knex) {
       name: "Concha Marked",
       // image: "tie-dye",
       image:
-        "https://res.cloudinary.com/jaelsondev/image/upload/v1591950248/uploads/Concha_marcada_xqmows.png",
+        "https://res.cloudinary.com/jaelsondev/image/upload/v1591951175/uploads/Concha_marcada_cvacmx.png",
       price: 102.55,
     },
     {
       name: "Concha Shaker",
       // image: "tie-dye",
       image:
-        "https://res.cloudinary.com/jaelsondev/image/upload/v1591950249/uploads/Concha_abanador_q3blhc.png",
+      "https://res.cloudinary.com/jaelsondev/image/upload/v1591951141/uploads/Concha_abanador_l6ndh4.png",
       price: 67.40,
     },
     {
       name: "Concha Worm",
       // image: "tie-dye",
       image:
-        "https://res.cloudinary.com/jaelsondev/image/upload/v1591950249/uploads/Concha_Minhoca_stvf7s.png",
+      "https://res.cloudinary.com/jaelsondev/image/upload/v1591951176/uploads/Concha_Minhoca_vjqb0r.png",
       price: 29.90,
     },
     {
       name: "Concha Beautiful",
       // image: "tie-dye",
       image:
-        "https://res.cloudinary.com/jaelsondev/image/upload/v1591950248/uploads/Concha_carrascuda_pryooc.png",
+        "https://res.cloudinary.com/jaelsondev/image/upload/v1591951175/uploads/Concha_carrascuda_xsmn5i.png",
       price: 299.90,
     },
   ]);
