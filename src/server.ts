@@ -4,6 +4,7 @@ import routes from './routes';
 import path from 'path';
 
 const app = express();
+const port : string|number= process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
@@ -11,4 +12,4 @@ app.use(routes);
 
 app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')));
 
-app.listen(3333)
+app.listen(port);
